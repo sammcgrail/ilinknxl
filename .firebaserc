@@ -1,5 +1,13 @@
 {
   "projects": {
     "default": "ilinknxl"
+  },
+  "hosting": {
+    "redirects": [ {
+      "source": "*",
+      "destination": "https://shoelace-theme-designer.vercel.app/",
+      "type": 301
+    } ]
   }
 }
+
